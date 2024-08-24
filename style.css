@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand-brand1{
+    color: rgb(250, 249, 248);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+span{
+    color: black;
+}
+.cws{
+    text-align: center;
+    color: #6b7280;
+}
+
+.header-content h1 {
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    color: black;
+    text-align: center;
+}
+.header-content p {
+   
+    line-height: 4.5rem;
+    color: black;
+    text-align: center;
+}
+.header-content span{
+    color:rgb(234, 128, 8) ;
+}
+.header-btn{
+    text-align: center;
+   
+}
+div .btn{
+    background-color: rgb(234, 128, 8);
+    
+}
+div .btn:hover{
+    background-color: rgb(234, 128, 8);
+
+}
+
+.special__container :is(.section__header, .section__description) {
+    max-width: 600px;
+    margin-inline: auto;
+  }
+  
+  .special__grid {
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .special__card {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+
+  }
+  
+  .special__card:hover {
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special__card img {
+    max-width: 200px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .special__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:black;
+  }
+  
+  .special__card p {
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+    line-height: 1.75rem;
+  }
+  
+  .special__ratings {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: goldenrod;
+  }
+  
+  .special__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .special__footer .price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+  }
